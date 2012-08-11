@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D58A97115CFFF1800ECFEA0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D58A97015CFFF1800ECFEA0 /* Cocoa.framework */; };
+		0D58A97B15CFFF1800ECFEA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D58A97915CFFF1800ECFEA0 /* InfoPlist.strings */; };
+		0D58A98615CFFFE800ECFEA0 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D58A98515CFFFE800ECFEA0 /* IOKit.framework */; };
+		0D58A98815CFFFED00ECFEA0 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D58A98715CFFFED00ECFEA0 /* WebKit.framework */; };
+		0D58A98B15D000C800ECFEA0 /* BrightnessPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D58A98A15D000C800ECFEA0 /* BrightnessPlugin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D58A96D15CFFF1800ECFEA0 /* BrightnessPlugin.widgetplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrightnessPlugin.widgetplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D58A97015CFFF1800ECFEA0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0D58A97315CFFF1800ECFEA0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0D58A97415CFFF1800ECFEA0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0D58A97515CFFF1800ECFEA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0D58A97815CFFF1800ECFEA0 /* BrightnessPlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrightnessPlugin-Info.plist"; sourceTree = "<group>"; };
+		0D58A97A15CFFF1800ECFEA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D58A97C15CFFF1800ECFEA0 /* BrightnessPlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrightnessPlugin-Prefix.pch"; sourceTree = "<group>"; };
+		0D58A98515CFFFE800ECFEA0 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		0D58A98715CFFFED00ECFEA0 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		0D58A98915D000C800ECFEA0 /* BrightnessPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrightnessPlugin.h; sourceTree = "<group>"; };
+		0D58A98A15D000C800ECFEA0 /* BrightnessPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrightnessPlugin.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D58A96A15CFFF1800ECFEA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D58A98815CFFFED00ECFEA0 /* WebKit.framework in Frameworks */,
+				0D58A98615CFFFE800ECFEA0 /* IOKit.framework in Frameworks */,
+				0D58A97115CFFF1800ECFEA0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D58A96215CFFF1800ECFEA0 = {
+			isa = PBXGroup;
+			children = (
+				0D58A97615CFFF1800ECFEA0 /* BrightnessPlugin */,
+				0D58A96F15CFFF1800ECFEA0 /* Frameworks */,
+				0D58A96E15CFFF1800ECFEA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D58A96E15CFFF1800ECFEA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D58A96D15CFFF1800ECFEA0 /* BrightnessPlugin.widgetplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D58A96F15CFFF1800ECFEA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D58A97015CFFF1800ECFEA0 /* Cocoa.framework */,
+				0D58A97215CFFF1800ECFEA0 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D58A97215CFFF1800ECFEA0 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D58A98715CFFFED00ECFEA0 /* WebKit.framework */,
+				0D58A98515CFFFE800ECFEA0 /* IOKit.framework */,
+				0D58A97315CFFF1800ECFEA0 /* AppKit.framework */,
+				0D58A97415CFFF1800ECFEA0 /* CoreData.framework */,
+				0D58A97515CFFF1800ECFEA0 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0D58A97615CFFF1800ECFEA0 /* BrightnessPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				0D58A98915D000C800ECFEA0 /* BrightnessPlugin.h */,
+				0D58A98A15D000C800ECFEA0 /* BrightnessPlugin.m */,
+				0D58A97715CFFF1800ECFEA0 /* Supporting Files */,
+			);
+			path = BrightnessPlugin;
+			sourceTree = "<group>";
+		};
+		0D58A97715CFFF1800ECFEA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D58A97815CFFF1800ECFEA0 /* BrightnessPlugin-Info.plist */,
+				0D58A97915CFFF1800ECFEA0 /* InfoPlist.strings */,
+				0D58A97C15CFFF1800ECFEA0 /* BrightnessPlugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D58A96C15CFFF1800ECFEA0 /* BrightnessPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D58A97F15CFFF1800ECFEA0 /* Build configuration list for PBXNativeTarget "BrightnessPlugin" */;
+			buildPhases = (
+				0D58A96915CFFF1800ECFEA0 /* Sources */,
+				0D58A96A15CFFF1800ECFEA0 /* Frameworks */,
+				0D58A96B15CFFF1800ECFEA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrightnessPlugin;
+			productName = BrightnessPlugin;
+			productReference = 0D58A96D15CFFF1800ECFEA0 /* BrightnessPlugin.widgetplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D58A96415CFFF1800ECFEA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Atsushi Tagami";
+			};
+			buildConfigurationList = 0D58A96715CFFF1800ECFEA0 /* Build configuration list for PBXProject "BrightnessPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0D58A96215CFFF1800ECFEA0;
+			productRefGroup = 0D58A96E15CFFF1800ECFEA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D58A96C15CFFF1800ECFEA0 /* BrightnessPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D58A96B15CFFF1800ECFEA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D58A97B15CFFF1800ECFEA0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D58A96915CFFF1800ECFEA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D58A98B15D000C800ECFEA0 /* BrightnessPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0D58A97915CFFF1800ECFEA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D58A97A15CFFF1800ECFEA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D58A97D15CFFF1800ECFEA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.7;
+			};
+			name = Debug;
+		};
+		0D58A97E15CFFF1800ECFEA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx10.7;
+			};
+			name = Release;
+		};
+		0D58A98015CFFF1800ECFEA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrightnessPlugin/BrightnessPlugin-Prefix.pch";
+				INFOPLIST_FILE = "BrightnessPlugin/BrightnessPlugin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = widgetplugin;
+			};
+			name = Debug;
+		};
+		0D58A98115CFFF1800ECFEA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrightnessPlugin/BrightnessPlugin-Prefix.pch";
+				INFOPLIST_FILE = "BrightnessPlugin/BrightnessPlugin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = widgetplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D58A96715CFFF1800ECFEA0 /* Build configuration list for PBXProject "BrightnessPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D58A97D15CFFF1800ECFEA0 /* Debug */,
+				0D58A97E15CFFF1800ECFEA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D58A97F15CFFF1800ECFEA0 /* Build configuration list for PBXNativeTarget "BrightnessPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D58A98015CFFF1800ECFEA0 /* Debug */,
+				0D58A98115CFFF1800ECFEA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D58A96415CFFF1800ECFEA0 /* Project object */;
+}
